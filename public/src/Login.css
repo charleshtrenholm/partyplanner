@@ -1,0 +1,53 @@
+:local(.Formo) {
+    background-color: orange;
+    padding-bottom: 50px;
+}
+
+:local(.login){
+    width: 45%;
+    padding: 5px;
+    margin: 10px;
+    vertical-align: top;
+    background-color: rgb(247, 91, 117);
+    display: inline-block;
+}
+
+:local(.backdrop){
+    position: 'fixed';
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: 'rgba(0,0,0,0.3)';
+    padding: 0;
+}
+
+:local(.errorHeader){
+    margin: 0px!important;
+}
+
+:local(.modal){
+    animation: errorMove 0.2s;
+    animation-iteration-count: 1;
+    background-color: rgb(207, 101, 1);
+    padding: 20px;
+}
+
+:local(.errLi){
+    text-align: left!important;
+    list-style-type: none;
+}
+
+:local(.formfield){
+    width: 80%;
+}
+
+:local(.formfield2){
+    width: 40%;
+}
+
+:local(.submitButton){
+    background-color: rgb(150, 20, 20)!important;
+    color: white!important;
+    width: 30%;
+    margin-top: 30px!important;
+}
